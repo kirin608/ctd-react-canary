@@ -5,7 +5,6 @@ function InputWithLabel(props) {
     useEffect(() => { inputRef.current.focus() });
     return (
 
-
         <Fragment>
             <label htmlFor="todoTitle">{props.children}</label>
             <input
