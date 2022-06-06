@@ -1,0 +1,51 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin: 1rem ;
+    border-radius: 12px;
+    background-color: #4b4b4b;
+  }
+  .item__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+ .label {
+color: azure;
+font-size: 24px;
+}
+
+
+  .button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #8b005d;
+    color: white;
+    background: #8b005d;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    width: 110px;
+    font-size: 24px;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #ac0e77;
+    border-color: #ac0e77;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  }
+
+
+  
